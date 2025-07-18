@@ -7,7 +7,7 @@ class ServicoResposta():
     def recupera_resposta(self, id_resposta):
         obj = Resposta.objects.get(pk = id_resposta)
         return obj
-    
+
 ## Serviço Correção
 ########################
 class ServicoCorrecao():
@@ -34,8 +34,8 @@ class ServicoTurma():
         # pela turma em questão
         agora = timezone.now().date
         aval = Avaliacao(
-            titulo=titulo, enunciado=enunciado, correcao=tipo_correcao, 
-            nota=max_nota, turma=turma, data=agora, 
+            titulo=titulo, enunciado=enunciado, correcao=tipo_correcao,
+            nota=max_nota, turma=turma, data=agora,
         )
         aval.save()
         return aval.id
