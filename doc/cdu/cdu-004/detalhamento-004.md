@@ -40,6 +40,10 @@
 
 ## Diagrama de Interação (Sequência ou Comunicação)
 
+### DSS
+
+![Diagrama de Sequencia do Sistema](./imagens/DSS.png)
+
 ### Etapa 1
 
 ![Diagrama de Sequência do Sistema](./imagens/etapa%201.png)
